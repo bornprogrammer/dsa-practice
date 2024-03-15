@@ -27,8 +27,6 @@ function binarySearch(sortedInput, t) {
 const input1 = [16, 19, 23, 35, 56, 78, 90, 105];
 const output1 = binarySearch(input1, 35); // -1
 
-
-
 const input2 = [12, 56, 90, 11, 34, 78, 34, 16].sort((a, b) => a - b);
 // const output2 = linearSearch(input2, 78); // 5
 
