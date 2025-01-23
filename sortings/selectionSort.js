@@ -23,7 +23,7 @@ function sortASC(input) {
         for (let index1 = 0; index1 < input.length; index1++) {
             if (input[index1] >= maxElem) {
                 let temp = input[index1];
-                input[index1] = maxElem;
+                input[index1] = input[index];
                 input[index] = temp;
                 maxElem = temp;
             }
@@ -47,7 +47,7 @@ function sortDesc(input) {
     return input;
 }
 
-console.log(sortASC([5, 4, 7, 2, 2]));
+console.log(sortASC([3, 9, 5, 1, 6]));
 // sort([5, 2, 4, 1, 9]);
 // sort([13, 17, 10, 44, 9]);
 // sort([1, 2, 3, 4, 5]);
